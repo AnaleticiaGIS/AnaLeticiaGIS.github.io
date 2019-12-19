@@ -4,6 +4,25 @@
 
 
 
+
+ li a { text-decoration: none; color:#000; }
+ li a:visited { text-decoration: none; color:#000; }
+ li a:hover { text-decoration: none; color:#000; }
+ li a:focus { text-decoration: none; color:#000; }
+ li a:hover, .navBtn:active { text-decoration: none; color:#000; }
+
+ footer a { text-decoration: none; color:#000; }
+ footer a:visited { text-decoration: none; color:#000; }
+ footer a:hover { text-decoration: none; color:#000; }
+ footer a:focus { text-decoration: none; color:#000; }
+ footer a:hover, .footer:active { text-decoration: none; color:#000; }
+
+
+}
+
+li { text-align: center !important;
+ }
+
 h2{
 	color: black;
 	text-align: center;
@@ -33,5 +52,16 @@ li{
 
 
 img:hover{
-	transform: scale(1.1);
+	transform: scale(1.1)
 }
+
+
+
+i:hover{
+	transform: scale(1.3);
+}
+
+
+
+
+
